@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* Fotoprojekt grund CSS(stil) */
+a{
+ text-decoration: none;
+ color: #FFF;
+}
+
+body { 
+	background-color:#ebe1ca /*#eedbaf*/;
+	margin-right:0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	font-family: consolas;
+	font-size: 30pt;
+}
+
+
+#wrapper {
+	width:100%;
+	height:auto;
+	margin:auto;
+	/*margin-left:10px;
+	margin-top:10px;
+	margin-right:10px;*/
+}
+
+#header {
+	float:left;
+	width:100%;
+	height:100px;
+	background-color: rgba(0, 0, 0, 0.63);
+  	position: fixed;
+  	top: 50px;
+
+  }
+
+#loga {
+float: left;
+width: 83px;
+height: 82px;
+margin-top: 9px;
+margin-left: 9px;
+/*background-color: #FFF;*/
+}
+
+#header_container{
+	height:100px;
+	float: right;
+	margin-right: 80px;
+}
+
+.Header_text {
+	height: 30px;
+	width: auto;
+	margin-top: 35px;
+	padding-left: 20px;
+	padding-right: 20px;
+	float: right;
+	color: #FFF;
+	font-size: 20pt;
+	letter-spacing: 4px;
+}
+
+#Header_right{
+	padding-right: 80px;
+}
+
+.header_line{
+	width: 1px;
+	height: 48px;
+	background-color: #FFF;
+	float: right;
+	margin-top: 26px;
+	margin-bottom: 26px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+
+
+#introbild {
+	float:left;
+	width:100%;
+	height:100%;
+	/*background-color:#99ccff;
+	box-shadow: 2px 2px 5px 2px #333;*/
+}
+
+.introbild {
+	float: left;
+	width:100%;
+	height:100%;
+}
+
+#introtext {
+	padding-top: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
+	float:left;
+	width:90%;
+	height:100%;
+}
+
+/*Dropdown*/
+/*
+#menu a{
+ text-decoration: none;
+ color: #333;
+ font-family: sans-serif;
+ padding: 5px;
+}
+#menu ul li{
+ display: inline;
+}
+.dropdown-menu{
+ display: none;
+}
+*/
