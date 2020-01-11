@@ -243,9 +243,11 @@ margin-left: 9px;
 
 #sam_content{
 	height:718px;
-	width: 1500px;
+	width: 1370px;
 	float: left;
-	padding: 50px;
+	padding-top: 50px;
+	padding-left: 80px;
+	padding-right: 100px;
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
@@ -285,6 +287,10 @@ margin-left: 9px;
 	float: left;
 	height: auto;
 }
+.citat_box p{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
 .citat_left{
 	width:725px;
 	height:auto;
@@ -319,4 +325,26 @@ margin-left: 9px;
 	height: 1035px;
 	float: left;
 
+}
+.kortacitat{
+	margin-right: 300px;
+}
+
+#tolk_content{
+	height:718px;
+	width: 1370px;
+	float: left;
+	padding-top: 50px;
+	padding-left: 80px;
+	padding-right: 100px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#tolk_content p{
+	font-size: 27px;
+}
+
+#tolk_content::-webkit-scrollbar {
+    display: none;
 }
