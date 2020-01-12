@@ -2,9 +2,11 @@
 /* Fotoprojekt grund CSS(stil) */
 a{
  text-decoration: none;
- color: #FFF;
+ color: #000;
 }
-
+html {
+	scroll-behavior: smooth; 
+} 
 body { 
 	background-color:#ebe1ca /*#eedbaf*/;
 	margin-right:0px;
@@ -242,7 +244,7 @@ margin-left: 9px;
 }
 
 #sam_content{
-	height:718px;
+	height:768px;
 	width: 1370px;
 	float: left;
 	padding-top: 50px;
@@ -331,7 +333,7 @@ margin-left: 9px;
 }
 
 #tolk_content{
-	height:718px;
+	height:768px;
 	width: 1370px;
 	float: left;
 	padding-top: 50px;
@@ -347,4 +349,102 @@ margin-left: 9px;
 
 #tolk_content::-webkit-scrollbar {
     display: none;
+}
+
+#samar_content{
+	height:768px;
+	width: 1370px;
+	float: left;
+	padding-top: 50px;
+	padding-left: 80px;
+	padding-right: 100px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#samar_content p{
+	font-size: 27px;
+}
+
+#samar_content::-webkit-scrollbar {
+    display: none;
+}
+
+#omm_content{
+	height:768px;
+	width: 1550px;
+	float: left;
+	padding-top: 50px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#omm_content::-webkit-scrollbar {
+    display: none;
+}
+.mig {
+	height: 500px;
+	width: 500px;
+	margin-left: 525px;
+	margin-right: 525px;
+	float: left;
+}
+#ommig_info {
+	width: 750px;
+	background-color: #d1c5a8;
+	height: auto;
+	padding-left:20px;
+	padding-right:20px;
+	margin-left: 375px;
+	margin-right: 375px;
+	float: left
+}
+
+#ommig_info p {
+	font-size: 21.5px;
+	text-align: left;
+	margin-left: 5;
+	margin-right: 0;
+}
+
+#proj_content{
+	height:768px;
+	width: 1370px;
+	float: left;
+	padding-top: 50px;
+	padding-left: 80px;
+	padding-right: 100px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#proj_content p{
+	font-size: 27px;
+}
+
+#proj_content::-webkit-scrollbar {
+    display: none;
+}
+
+#stod_content{
+	height:768px;
+	width: 1370px;
+	float: left;
+	padding-top: 50px;
+	padding-left: 80px;
+	padding-right: 100px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#stod_content p{
+	font-size: 27px;
+}
+
+#stod_content::-webkit-scrollbar {
+    display: none;
+}
+
+#stod_content a{
+	font-size: 27px;
 }
